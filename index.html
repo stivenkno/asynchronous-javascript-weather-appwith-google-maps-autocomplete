@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima y Mapa</title>
+    <link rel="stylesheet" href="style.css">
+</script>
+</head>
+<body>
+    <header>
+        <h1>Clima y Mapa</h1>
+        <div id="texto">
+            <h2>Coloca una ubicación</h2>
+            <input id="autocomplete" type="text" placeholder="Ingresa una ubicación">
+        </div>
+    </header>
+    
+    
+    <div id="map" style="height: 500px; width: 100%;"></div>
+    <div id="weather"></div>
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhfJjm43xByB-P3iKM5yCHSCzEU92PVcc&libraries=places&callback=initMap" loading=async defer></script>
+    <script defer src="javascript.js"></script>
+</body>
+</html>
